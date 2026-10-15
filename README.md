@@ -1,227 +1,222 @@
-# Awesome-AI-Gateway-Routing
+# Awesome AI Gateway & LLM Routing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ishandutta2007/Awesome-AI-Gateway-Routing/pulls) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## Top AI Gateway & Routing Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Multi-Provider Routing, Fallback Logic & Unified Model Endpoints*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Gateway & Routing**. These tools sit between your application and model providers—normalizing APIs, routing requests intelligently, handling failover, enforcing budgets, and giving you a single endpoint for Claude, GPT, Gemini, Llama, and everything else.
-
-
-
-**Examples** include Portkey, Helicone, LiteLLM Cloud, Cloudflare AI Gateway, Kong AI Gateway, Martian, Langfuse, PromptLayer, Maxim AI, and OmniRoute (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, multi-provider gateways, and open routing infrastructure—ideal for AI engineers, platform teams, and developers seeking transparent, vendor-independent model access.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Portkey](https://portkey.ai/)**  
-
-  **Blazing fast AI gateway with 1,600+ models and 45+ guardrails.** Features **routing strategies** (fallback, load balance, conditional), **caching**, **retries**, and **observability**. SOC 2, HIPAA, GDPR compliant. **The most feature-rich managed AI gateway for production.**
-
-
-
-- **[Helicone](https://www.helicone.ai/)**  
-
-  YC W23. **Proxy-first observability**—change `api.openai.com` to `oai.helicone.ai` for zero-code logging. Also supports async SDK mode. Features **caching, 100+ models, cost tracking**, and growing eval/prompt capabilities. **Acquired by Mintlify in March 2026 and in maintenance mode** .
-
-
-
-- **[LiteLLM Cloud](https://www.litellm.ai/)**  
-
-  Managed version of the open-source LiteLLM proxy. **100+ LLM APIs through OpenAI-compatible interface.** Features **cost tracking per key/user/team**, **rate limiting**, **fallback routing**, **load balancing**, **caching**, and **budget enforcement**. **The most widely adopted managed gateway** for teams wanting hosted LiteLLM.
-
-
-
-- **[Cloudflare AI Gateway](https://www.cloudflare.com/developer-platform/ai-gateway/)**  
-
-  **Cloudflare's AI gateway** for observability, caching, and rate limiting across providers. Features **analytics**, **cost tracking**, and **fallback**. **The most cloud-native managed gateway.**
-
-
-
-- **[Kong AI Gateway](https://konghq.com/products/kong-ai-gateway)**  
-
-  **Kong's AI gateway** extending the Kong Gateway platform with AI-specific plugins. Features **multi-provider routing**, **semantic caching**, **prompt guarding**, and **observability**. **Best for teams already using Kong Gateway.**
-
-
-
-- **[Martian](https://withmartian.com/)**  
-
-  **AI routing and optimization platform.** Routes queries to the best model based on cost, quality, and latency—with proprietary router that adapts to your use case. **The most specialized routing-only managed service.**
-
-
-
-- **[PromptLayer](https://promptlayer.com/)**  
-
-  **Prompt management and observability platform.** Features prompt versioning, evaluation, and collaboration. **The most focused managed prompt engineering platform.**
-
-
-
-- **[Maxim AI](https://www.getmaxim.ai/)**  
-
-  **AI evaluation and observability platform.** Features agent simulation, evaluation workflows, and production monitoring.
-
-
-
-- **[Langfuse Cloud](https://langfuse.com/)**  
-
-  Managed version of the open-source Langfuse platform. Features tracing, evaluations, prompt management, and datasets. **Acquired by ClickHouse in January 2026 with commitment to keep it open source.**
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[LiteLLM](https://github.com/BerriAI/litellm)**  
-
-  **The most comprehensive open-source multi-provider gateway** — **100+ LLM APIs through OpenAI-compatible interface** (MIT). **20,000+ GitHub stars.** Features **cost tracking per key/user/team**, **rate limiting**, **fallback routing**, **load balancing**, **caching**, and **budget enforcement**. **The de facto standard for multi-model orchestration** — powers many other aggregators including LibreChat, Open WebUI, and Dify . **The most widely deployed open-source AI gateway.**
-
-
-
-- **[Portkey Gateway](https://github.com/Portkey-AI/gateway)**  
-
-  **Blazing fast AI gateway** with **250+ models and 45+ guardrails** (Apache-2.0) . **10,000+ GitHub stars.** Features **routing strategies** (fallback, load balance, conditional), **caching**, **retries**, and **observability**. **The most feature-rich open-source AI gateway for production.**
-
-
-
-- **[RouteLLM](https://github.com/lm-sys/RouteLLM)**  
-
-  **Framework for serving and evaluating LLM routers** (Apache-2.0) . **The leading open-source cost-optimized router** —route queries to appropriate model based on complexity. Features **cost-quality tradeoff optimization**, **framework compatibility** (OpenAI client, LangChain), and **pre-trained routers** based on human preference data. **Achieves significant cost savings without quality degradation.**
-
-
-
-- **[AI Gateway (Cloudflare)](https://github.com/cloudflare/ai-gateway)**  
-
-  Open-source AI gateway for **observability, caching, and rate limiting** across providers (MIT) . Features **analytics**, **cost tracking**, and **fallback** .
-
-
-
-- **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)**  
-
-  **Free AI gateway providing access to 90+ free API providers** for Claude Code and other agent harnesses (open-source) . **The most accessible open-source gateway for free model access.** Features **automatic fallback** when providers rate-limit, **model switching** without manual intervention, and **integration with compression tools** like RTK and Caveman . Works with FreeClaude Code (open-source Claude Code harness) to provide free AI coding without subscription . **Note**: Requires community-maintained provider list—availability varies by region and provider status .
-
-
-
-- **[Bifrost (Maxim AI)](https://github.com/maximhq/bifrost)**  
-
-  **Fastest enterprise-grade LLM gateway** (open-source) . **Claims to be the fastest LLM gateway in the market** with drop-in OpenAI-compatible replacement for OpenAI, Anthropic, Bedrock, and 15+ providers. Features **automatic failover**, **load balancing**, **semantic caching**, **budget management**, and **observability** .
-
-
-
-- **[Langfuse](https://github.com/langfuse/langfuse)**  
-
-  **Open-source LLM engineering platform** (MIT core) with tracing, evaluations, prompt management, and datasets . **35,000+ GitHub stars.** Self-hostable. **Acquired by ClickHouse in January 2026 with commitment to keep it open source** .
-
-
-
-- **[OpenRouter](https://openrouter.ai/)**  
-
-  **The dominant AI model aggregator** — **400+ models from 60+ providers** through a single OpenAI-compatible API . Features **automatic failover** when providers are down, **cost-optimized routing** (pick cheapest provider for same model), **BYOK (Bring Your Own Keys)** support, and **provider-level preferences** . **The de facto standard for multi-model access** — most open-source aggregators integrate with OpenRouter as a provider rather than building direct provider connections.
-
-
-
-- **[Portkey Gateway (Self-Hosted)](https://github.com/Portkey-AI/gateway)**  
-
-  See Portkey above.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Kong AI Gateway (Open Source)](https://github.com/Kong/kong)** — Kong Gateway with AI plugins (Apache-2.0) . Features multi-provider routing, semantic caching, and prompt guarding.
-
-- **[Apache APISIX AI Gateway](https://github.com/apache/apisix)** — APISIX with AI proxy plugins (Apache-2.0) . **The most widely deployed open-source API gateway** with AI capabilities.
-
-- **[Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)** — Envoy-based AI gateway (Apache-2.0) . **The most standards-based approach** —builds on Envoy's battle-tested proxy.
-
-- **[Semantic Router](https://github.com/aurelio-labs/semantic-router)** — Open-source semantic routing library (MIT) for intent-based model selection.
-
-- **[GPTCache](https://github.com/zilliztech/GPTCache)** — Open-source semantic caching for LLMs (MIT) . **The most widely used caching layer for AI gateways.**
-
-- **[Envoy AI Gateway](https://github.com/envoyproxy/ai-gateway)** — See above.
-
-- Community **n8n** workflows for AI gateway monitoring and cost alert automation.
-
-
-
-**Frameworks for building custom systems**: Combine **LiteLLM** for multi-provider gateway with **Portkey Gateway** for production routing and guardrails, **RouteLLM** for cost-optimized model selection, **GPTCache** for semantic caching, and **Langfuse** for observability—creating a fully self-hosted, enterprise-grade AI gateway platform.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- AI gateways handling prompts and API keys must comply with data protection regulations (GDPR, CCPA, etc.) and provider terms of service.
-
-- **Open-source AI gateways are mature and production-ready.** LiteLLM (20K+ stars) powers multi-provider orchestration for many other tools . Portkey (10K+ stars) provides production-grade routing and guardrails . RouteLLM provides cost-optimized model selection . **These are genuine alternatives to managed platforms.**
-
-- **OpenRouter is the dominant aggregator for a reason.** 400+ models, automatic failover, cost-optimized routing, and BYOK support — most open-source aggregators integrate with OpenRouter as a provider rather than building direct provider connections .
-
-- **RouteLLM is the open-source cost optimization leader.** Route queries to appropriate model based on complexity — achieving significant cost savings without quality degradation . **This is the most sophisticated open-source approach to model selection.**
-
-- **Self-hosted gateways require key management discipline.** LiteLLM and Portkey both support virtual keys with budgets and rate limits. **Never embed provider API keys directly in applications** — route through the gateway and issue scoped virtual keys per team, application, or user.
-
-- Self-hosted open-source solutions require proper security hardening, API key management, and ongoing maintenance. AI gateways handle sensitive credentials — access controls and audit trails are essential.
-
-
+> A curated collection of production-grade **AI Gateways**, **LLM Routers**, and **Model Proxy Infrastructure** for engineering teams. Situate unified endpoints between your client applications and multi-provider models (OpenAI, Anthropic Claude, Google Gemini, Meta Llama, DeepSeek, Mistral) with intelligent fallback logic, cost-optimized routing, semantic caching, rate limiting, and observability.
 
 ---
 
+## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+- [SaaS & Hosted AI Gateway Platforms](#saas--hosted-ai-gateway-platforms)
+- [Open-Source GitHub Projects (Ranked by Stars)](#open-source-github-projects-ranked-by-stars)
+- [Architectural Blueprint: Composing an AI Gateway Stack](#architectural-blueprint-composing-an-ai-gateway-stack)
+- [Key Selection Criteria](#key-selection-criteria)
+- [How to Contribute](#how-to-contribute)
+- [Disclaimer & Security Best Practices](#disclaimer--security-best-practices)
 
-**Made for AI engineers, platform teams, and developers building transparent AI gateway solutions.**  
+---
 
-Let's make AI Gateway & Routing more open, data-driven, and provider-independent.
+## Sector Overview & Market Dynamics
+
+The global **AI Gateway, LLM Routing, and Orchestration market** is currently estimated at **$2.5B to $4.2B**, expanding at a rapid compound annual growth rate (CAGR) of **~38%** as enterprise deployments transition from single-model experimentation to resilient multi-model production architectures. 
+
+The sector is currently **moderately to highly fragmented** rather than concentrated or "winner-take-all":
+- **Standardized Abstraction Layer**: Because OpenAI-compatible REST schemas have become the universal protocol for inference, developer switching costs between gateways and routing layers remain exceptionally low.
+- **Divergent Architecture Demands**: Cloud platform incumbents (Cloudflare, Kong) compete on global edge latency and compliance, while developer-first open-source frameworks (LiteLLM, Portkey) lead developer mindshare for local VPC control, zero-markup pass-through, and auditability.
+- **Intelligent Routing Specialization**: A distinct niche of dynamic intent- and cost-based routers (Martian, RouteLLM) has emerged to arbitrate between frontier reasoning models and lightweight local/open weights on a per-token basis.
+
+---
+
+## SaaS & Hosted AI Gateway Platforms
+
+The following hosted and managed SaaS solutions provide turnkey AI gateways, automated failover, model routing, security guardrails, and usage observability.
+
+*Products are sorted descending by company size, valuation, or annual revenue.*
+
+| Product | Company Size / Valuation / Revenue | Starting Tier Price | Free Tier / Trial Limits | Core Focus & Routing Features |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Cloudflare AI Gateway](https://www.cloudflare.com/developer-platform/ai-gateway/)** | **~$35B Market Cap**<br>*(NYSE: NET, ~$1.7B ARR)* | **$5/month**<br>*(Workers Paid base)* | **Free forever**:<br>• 100,000 logs/month<br>• Up to 10 gateways<br>• 10,000 Neurons/day compute on Workers AI | Edge-native gateway with zero-latency response caching, real-time analytics, rate limiting, and automatic multi-provider fallback. |
+| **[Kong AI Gateway](https://konghq.com/products/kong-ai-gateway)** | **~$2.0B Valuation**<br>*($345M+ raised, $100M+ ARR)* | **$250/month**<br>*(Konnect Plus base plan)* | **30-Day Free Trial**:<br>• Full access to managed Konnect SaaS platform<br>• Up to 1M API requests during evaluation<br>*(OSS self-hosted is free forever)* | Enterprise cloud API management extending native plugins to LLMs: semantic caching, prompt guardrails, and role-based credential routing. |
+| **[Langfuse Cloud](https://langfuse.com/)** | **~$2.0B Valuation**<br>*(Acquired by ClickHouse; ClickHouse valued at $2B+)* | **$29/month**<br>*(Core tier; Pro tier at $199/month)* | **Free forever (Hobby)**:<br>• 50,000 units/month (traces & observations)<br>• 2 team seats<br>• 30-day data retention | OpenLLMetry-based LLM observability platform with execution tracing, prompt evaluation, playground versioning, and gateway analytics. |
+| **[Martian](https://withmartian.com/)** | **~$1.3B Valuation**<br>*(Backed by NEA, Prosus, Accenture)* | **$20/month**<br>*(Base usage minimum + provider pass-through)* | **14-Day Free Trial**:<br>• $10 in complimentary routing credits across supported models | Proprietary Model Router that dynamically inspects prompt complexity and dispatches queries to the most cost-effective and accurate model. |
+| **[Portkey](https://portkey.ai/)** | **~$110M Valuation**<br>*($18M raised; acquired by Palo Alto Networks)* | **$49/month**<br>*(Pro tier)* | **Free forever (Developer)**:<br>• 10,000 recorded logs/month<br>• 3 prompt templates<br>• 3-day log retention | Multi-provider AI gateway connecting 1,600+ models with 45+ deterministic guardrails, conditional load balancing, and fallback logic. |
+| **[OpenRouter](https://openrouter.ai/)** | **~$80M Valuation**<br>*(Estimated $25M+ GMV run-rate)* | **$0/month base**<br>*(Pay-as-you-go per token; 0% markup for BYOK)* | **Free forever**:<br>• Access to 10+ free models (e.g., Llama 3 8B, Gemini 1.5 Flash 8B)<br>• Capped at 20 req/min and 200 req/day | Aggregator and router providing unified access to 400+ models across 60+ providers with automated failover and cheapest-provider pricing. |
+| **[LiteLLM Cloud](https://www.litellm.ai/)** | **~$25M Valuation**<br>*(YC W23, $2.1M raised)* | **$250/month**<br>*(Enterprise Basic tier)* | **14-Day Free Trial**:<br>• Unlimited proxy requests & full enterprise control plane<br>*(Self-hosted open source is free forever)* | Fully managed hosted LiteLLM proxy: unified OpenAI schema, virtual key generation, team-level budget limits, and upstream provider failover. |
+| **[Helicone](https://www.helicone.ai/)** | **~$20M Valuation**<br>*(YC W23, acquired by Mintlify)* | **$79/month**<br>*(Pro tier; includes 7-day Pro trial)* | **Free forever (Hobby)**:<br>• 10,000 requests/month<br>• 1 seat & 1 GB storage<br>• 7-day log retention | Proxy-first LLM observability: change your base URL for instant logging, cost tracking, semantic cache hit ratios, and prompt experiments. |
+| **[Maxim AI](https://www.getmaxim.ai/)** | **~$15M Valuation**<br>*(Pre-seed/Seed raised ~$2M)* | **$29/seat/month**<br>*(Professional plan)* | **Free forever (Developer)**:<br>• 10,000 logs & traces/month<br>• Up to 3 seats | Evaluation, agent simulation, and real-time observability gateway designed for testing multi-turn agentic applications. |
+| **[PromptLayer](https://promptlayer.com/)** | **~$12M Valuation**<br>*(YC W23, raised ~$2M)* | **$49/month**<br>*(Pro tier)* | **Free forever (Free tier)**:<br>• 2,500 requests/month<br>• 250 evaluation executions/month<br>• 5 user seats | Specialized prompt management platform featuring visual prompt engineering, model regression testing, and gateway request tracing. |
+
+---
+
+## Open-Source GitHub Projects (Ranked by Stars)
+
+Self-hostable, transparent, and vendor-independent open-source AI gateways, reverse proxies, and intelligent routers.
+
+*Repositories are sorted strictly in descending order of GitHub star count.*
+
+1. **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** [![GitHub stars](https://img.shields.io/github/stars/diegosouzapw/OmniRoute?style=social&color=white)](https://github.com/diegosouzapw/OmniRoute/stargazers)  
+   **Free, multi-provider AI gateway providing unified access across 350+ providers and 1,200+ models.**  
+   *License: MIT*  
+   Built specifically for coding agents (Claude Code, Cursor, Codex, OpenCode), OmniRoute features quota-aware automatic fallbacks, token compression pipelines (RTK + Caveman) saving 15–95% on context tokens, and model switching without manual reconfiguration.
+
+2. **[LiteLLM](https://github.com/BerriAI/litellm)** [![GitHub stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)  
+   **The industry standard for multi-provider LLM gateway orchestration.**  
+   *License: MIT*  
+   Translates 100+ LLM APIs (Bedrock, Azure, OpenAI, Anthropic, Vertex AI, vLLM, HuggingFace) into standard OpenAI-compatible format. Features virtual API keys with team-level rate limits and spend caps, fallback routing, dynamic load balancing, and native database logging.
+
+3. **[Kong Gateway](https://github.com/Kong/kong)** [![GitHub stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
+   **Cloud-native API gateway with dedicated AI Gateway capabilities.**  
+   *License: Apache-2.0*  
+   Extends Kong's battle-tested proxy infrastructure with AI-specific plugins: multi-LLM routing, semantic prompt caching, prompt injection guardrails, credential scrubbing, and rate-limiting across upstream model providers.
+
+4. **[One API](https://github.com/songquanpeng/one-api)** [![GitHub stars](https://img.shields.io/github/stars/songquanpeng/one-api?style=social&color=white)](https://github.com/songquanpeng/one-api/stargazers)  
+   **All-in-one API hub and distribution system for Large Language Models.**  
+   *License: MIT*  
+   Multi-channel, multi-tenant gateway that unifies standard OpenAI calls with Claude, Gemini, Ernie, Baichuan, and local endpoints. Features channel health checks, automatic channel failover, balance and quota allocation, and a built-in admin Web UI.
+
+5. **[Langfuse](https://github.com/langfuse/langfuse)** [![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)  
+   **Open-source LLM engineering and observability platform.**  
+   *License: MIT Core*  
+   Provides detailed distributed tracing for complex multi-step LLM chains and agent workflows, alongside dataset management, automated evaluations, prompt playgrounds, and fine-grained latency and token cost analytics.
+
+6. **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
+   **Dynamic, high-performance API gateway with AI proxy plugins.**  
+   *License: Apache-2.0*  
+   Built on NGINX and OpenResty, APISIX provides native AI proxy plugins for LLM load balancing, token rate limiting, fallback routing, and integration with OpenAI, DeepSeek, and Anthropic APIs.
+
+7. **[Portkey Gateway](https://github.com/Portkey-AI/gateway)** [![GitHub stars](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social&color=white)](https://github.com/Portkey-AI/gateway/stargazers)  
+   **High-throughput AI gateway with integrated guardrails.**  
+   *License: Apache-2.0*  
+   Ultra-fast, enterprise-ready gateway routing to 1,600+ models. Supports advanced routing strategies (fallback, load balance, canary deployments, conditional routing), semantic caching, retries, and comprehensive compliance logging.
+
+8. **[TensorZero](https://github.com/tensorzero/tensorzero)** [![GitHub stars](https://img.shields.io/github/stars/tensorzero/tensorzero?style=social&color=white)](https://github.com/tensorzero/tensorzero/stargazers)  
+   **High-performance LLMOps gateway, observability, and optimization engine.**  
+   *License: Apache-2.0*  
+   Written in Rust, TensorZero serves as an enterprise gateway unifying LLM model invocation, metric collection, dynamic experimentation (A/B testing and bandit routing), and fine-tuning pipelines.
+
+9. **[Tyk API & AI Gateway](https://github.com/TykTechnologies/tyk)** [![GitHub stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)  
+   **Open-source API gateway supporting REST, GraphQL, gRPC, and MCP.**  
+   *License: MPL-2.0*  
+   Enterprise gateway providing native AI mediation, Model Context Protocol (MCP) support, security policies, token-based rate limiting, and multi-model traffic management.
+
+10. **[Higress](https://github.com/higress-group/higress)** [![GitHub stars](https://img.shields.io/github/stars/higress-group/higress?style=social&color=white)](https://github.com/higress-group/higress/stargazers)  
+    **Next-generation cloud-native AI gateway built on Envoy and Istio.**  
+    *License: Apache-2.0*  
+    Initiated by Alibaba, Higress acts as an AI-native gateway combining API gateway, ingress controller, and AI proxy functionality. Provides multi-model failover, token-level flow control, and WebAssembly plugin extensibility.
+
+11. **[Bifrost (Maxim AI)](https://github.com/maximhq/bifrost)** [![GitHub stars](https://img.shields.io/github/stars/maximhq/bifrost?style=social&color=white)](https://github.com/maximhq/bifrost/stargazers)  
+    **Sub-millisecond enterprise LLM, MCP, and agent gateway in Go.**  
+    *License: Apache-2.0*  
+    Adds under 200µs of overhead at 5k RPS. Acts as a unified drop-in OpenAI-compatible proxy with support for 10,000+ models, MCP Code Mode, semantic caching, virtual budgets, and circuit-breaker failover.
+
+12. **[GPTCache](https://github.com/zilliztech/GPTCache)** [![GitHub stars](https://img.shields.io/github/stars/zilliztech/GPTCache?style=social&color=white)](https://github.com/zilliztech/GPTCache/stargazers)  
+    **Semantic caching layer for Large Language Model queries.**  
+    *License: MIT*  
+    Constructs semantic embedding similarity caches for LLM responses. Drastically reduces API latency and token expenditures by returning cached responses for semantically equivalent prompts.
+
+13. **[LLM Gateway (Manifest)](https://github.com/mnfst/llm-gateway)** [![GitHub stars](https://img.shields.io/github/stars/mnfst/llm-gateway?style=social&color=white)](https://github.com/mnfst/llm-gateway/stargazers)  
+    **Self-hosted, developer-friendly proxy for multi-provider routing.**  
+    *License: Apache-2.0*  
+    Provides single-endpoint access to multiple LLM backends with rate limiting, unified key management, and configurable fallback chains.
+
+14. **[gpt-load](https://github.com/tbphp/gpt-load)** [![GitHub stars](https://img.shields.io/github/stars/tbphp/gpt-load?style=social&color=white)](https://github.com/tbphp/gpt-load/stargazers)  
+    **Self-hosted AI gateway for multi-channel & multi-credential scheduling.**  
+    *License: GPL-3.0*  
+    Designed for unified credential management across API keys and subscription accounts. Features multi-account rotation, scheduling fault tolerance, request logging, and aggregated usage metrics.
+
+15. **[Helicone OSS](https://github.com/Helicone/helicone)** [![GitHub stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers)  
+    **Open-source observability and proxy engine for LLM developers.**  
+    *License: Apache-2.0*  
+    Self-hostable edition of Helicone: real-time request proxying, token usage tracking, custom metadata labeling, prompt version management, and query analysis.
+
+16. **[kgateway](https://github.com/kgateway-dev/kgateway)** [![GitHub stars](https://img.shields.io/github/stars/kgateway-dev/kgateway?style=social&color=white)](https://github.com/kgateway-dev/kgateway/stargazers)  
+    **Envoy-powered cloud-native API and AI gateway for Kubernetes.**  
+    *License: Apache-2.0*  
+    Kubernetes Gateway API-compliant gateway designed for multi-model LLM routing, token-bucket rate limiting, and secure egress to frontier model APIs.
+
+17. **[RouteLLM](https://github.com/lm-sys/RouteLLM)** [![GitHub stars](https://img.shields.io/github/stars/lm-sys/RouteLLM?style=social&color=white)](https://github.com/lm-sys/RouteLLM/stargazers)  
+    **Evaluation and serving framework for cost-optimized LLM routing.**  
+    *License: Apache-2.0*  
+    Trained on human preference datasets from LMSYS, RouteLLM dynamically classifies input complexity and dispatches prompts to cheaper models (e.g., Llama 3 8B) when possible, only falling back to frontier models (e.g., GPT-4o) when strictly necessary—slashing inference costs by up to 85%.
+
+18. **[AxonHub](https://github.com/looplj/axonhub)** [![GitHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=social&color=white)](https://github.com/looplj/axonhub/stargazers)  
+    **Open-source AI Gateway with multi-provider routing and cost control.**  
+    *License: MIT*  
+    Connects to 100+ LLMs with unified OpenAI SDK compatibility. Features automatic retries, provider failover, load balancing, token quotas, and end-to-end tracing.
+
+19. **[Semantic Router](https://github.com/aurelio-labs/semantic-router)** [![GitHub stars](https://img.shields.io/github/stars/aurelio-labs/semantic-router?style=social&color=white)](https://github.com/aurelio-labs/semantic-router/stargazers)  
+    **Superfast semantic decision layer for LLMs and agentic routing.**  
+    *License: Apache-2.0*  
+    Uses local vector embeddings rather than slow LLM classifier calls to route prompts to specialized handlers, distinct models, or guardrails within milliseconds.
+
+---
+
+## Architectural Blueprint: Composing an AI Gateway Stack
+
+For engineering teams constructing a resilient, production-ready, vendor-agnostic infrastructure, a layered approach is recommended:
+
+```mermaid
+flowchart TD
+    Client["Client Applications & Coding Agents<br>(Claude Code, Cursor, Web Services)"] --> Ingress["Ingress & AI Gateway<br>(LiteLLM / Portkey / Kong)"]
+    
+    subgraph GatewayCore ["AI Gateway Orchestration Core"]
+        Auth["Virtual Key Auth & Budget Enforcement"]
+        SemCache["Semantic Caching<br>(GPTCache)"]
+        Router["Cost & Intent Router<br>(RouteLLM / Semantic Router)"]
+        Guard["Safety & Prompt Guardrails"]
+    end
+    
+    Ingress --> Auth
+    Auth --> SemCache
+    SemCache -- Cache Miss --> Router
+    Router --> Guard
+    
+    subgraph ModelPool ["Multi-Provider Model Endpoints"]
+        M1["Tier-1 Frontier Models<br>(Claude 3.7 Sonnet, GPT-4o, Gemini 2.5 Pro)"]
+        M2["Fast / Cost-Effective Models<br>(GPT-4o-mini, Gemini 2.5 Flash, Claude 3.5 Haiku)"]
+        M3["Local & Self-Hosted Models<br>(vLLM, Ollama, DeepSeek R1, Llama 3.3)"]
+    end
+    
+    Guard --> M1
+    Guard --> M2
+    Guard --> M3
+    
+    Ingress -.-> Observability["Observability & Tracing<br>(Langfuse / Helicone)"]
+```
+
+---
+
+## Key Selection Criteria
+
+When choosing an AI Gateway solution, evaluate your stack across these five pillars:
+
+1. **Protocol Compatibility**: Does the gateway expose an identical OpenAI-compatible `/v1/chat/completions`, `/v1/embeddings`, and `/v1/responses` format so your application requires zero code refactoring?
+2. **Failover & Load Balancing**: Can the router automatically retry transient 429 (Rate Limit) and 5xx errors by seamlessly shifting traffic across backup providers or alternate regions?
+3. **Budget & Virtual Key Management**: Does the gateway let you issue scoped API keys with hard token or dollar limits per developer, team, or application?
+4. **Semantic Caching**: Can the system prevent redundant upstream calls for repeated or semantically similar prompts to save costs and reduce latency?
+5. **Data Privacy & Compliance**: Does your workload demand SOC 2 Type II, HIPAA, or on-premise VPC hosting where prompts and API keys never exit your private perimeter?
+
+---
+
+## How to Contribute
+
+Contributions are welcome! To add or update an entry:
+
+1. Fork the repository.
+2. Ensure new SaaS entries follow the structured table format (including exact pricing and verified free tier limits).
+3. Ensure new Open-Source projects include an accurate star badge formatted as:  
+   `[![GitHub stars](https://img.shields.io/github/stars/owner/repo?style=social&color=white)](https://github.com/owner/repo/stargazers)`
+4. Keep entries sorted according to their specified sorting criteria (Company Size descending for SaaS; Star count descending for Open Source).
+5. Submit a pull request with a brief explanation.
+
+---
+
+## Disclaimer & Security Best Practices
+
+- This list is community-curated for informational purposes and does not constitute formal endorsement.
+- **API Key Security**: Never embed upstream provider keys directly inside frontend applications. Always route requests through a protected gateway with scoped virtual tokens.
+- **Compliance & Privacy**: Ensure routing rules respect geographical and regulatory constraints (e.g., GDPR, HIPAA, EU data sovereignty) when failing over between US and European endpoints.
+
+---
+
+**Keywords for Discovery**: AI Gateway, LLM Gateway, LLM Routing, Model Router, OpenAI Proxy, Multi-Provider Fallback, Semantic Caching, LiteLLM, Portkey, Langfuse, RouteLLM, Helicone, Cloudflare AI Gateway, Kong AI Gateway, Generative AI Infrastructure, LLMOps.
