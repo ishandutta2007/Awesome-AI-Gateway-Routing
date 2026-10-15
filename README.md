@@ -67,99 +67,99 @@ The following hosted and managed SaaS solutions provide turnkey AI gateways, aut
 
 Self-hostable, transparent, and vendor-independent open-source AI gateways, reverse proxies, and intelligent routers.
 
-*Repositories are sorted strictly in descending order of GitHub star count.*
+*Repositories are sorted strictly in descending order of GitHub Stars_Count.*
 
-1. **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** [![GitHub stars](https://img.shields.io/github/stars/diegosouzapw/OmniRoute?style=social&color=white)](https://github.com/diegosouzapw/OmniRoute/stargazers)  
+1. **[OmniRoute](https://github.com/diegosouzapw/OmniRoute)** [![GitHub_Stars](https://img.shields.io/github/stars/diegosouzapw/OmniRoute?style=social&color=white)](https://github.com/diegosouzapw/OmniRoute/stargazers)  
    ✨ **Free, multi-provider AI gateway providing unified access across 350+ providers and 1,200+ models.**  
    *📜 License: MIT*  
    Built specifically for coding agents (Claude Code, Cursor, Codex, OpenCode), OmniRoute features quota-aware automatic fallbacks, token compression pipelines (RTK + Caveman) saving 15–95% on context tokens, and model switching without manual reconfiguration.
 
-2. **[LiteLLM](https://github.com/BerriAI/litellm)** [![GitHub stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)  
+2. **[LiteLLM](https://github.com/BerriAI/litellm)** [![GitHub_Stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)  
    🔥 **The industry standard for multi-provider LLM gateway orchestration.**  
    *📜 License: MIT*  
    Translates 100+ LLM APIs (Bedrock, Azure, OpenAI, Anthropic, Vertex AI, vLLM, HuggingFace) into standard OpenAI-compatible format. Features virtual API keys with team-level rate limits and spend caps, fallback routing, dynamic load balancing, and native database logging.
 
-3. **[Kong Gateway](https://github.com/Kong/kong)** [![GitHub stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
+3. **[Kong Gateway](https://github.com/Kong/kong)** [![GitHub_Stars](https://img.shields.io/github/stars/Kong/kong?style=social&color=white)](https://github.com/Kong/kong/stargazers)  
    🦍 **Cloud-native API gateway with dedicated AI Gateway capabilities.**  
    *📜 License: Apache-2.0*  
    Extends Kong's battle-tested proxy infrastructure with AI-specific plugins: multi-LLM routing, semantic prompt caching, prompt injection guardrails, credential scrubbing, and rate-limiting across upstream model providers.
 
-4. **[One API](https://github.com/songquanpeng/one-api)** [![GitHub stars](https://img.shields.io/github/stars/songquanpeng/one-api?style=social&color=white)](https://github.com/songquanpeng/one-api/stargazers)  
+4. **[One API](https://github.com/songquanpeng/one-api)** [![GitHub_Stars](https://img.shields.io/github/stars/songquanpeng/one-api?style=social&color=white)](https://github.com/songquanpeng/one-api/stargazers)  
    🌐 **All-in-one API hub and distribution system for Large Language Models.**  
    *📜 License: MIT*  
    Multi-channel, multi-tenant gateway that unifies standard OpenAI calls with Claude, Gemini, Ernie, Baichuan, and local endpoints. Features channel health checks, automatic channel failover, balance and quota allocation, and a built-in admin Web UI.
 
-5. **[Langfuse](https://github.com/langfuse/langfuse)** [![GitHub stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)  
+5. **[Langfuse](https://github.com/langfuse/langfuse)** [![GitHub_Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=social&color=white)](https://github.com/langfuse/langfuse/stargazers)  
    🪢 **Open-source LLM engineering and observability platform.**  
    *📜 License: MIT Core*  
    Provides detailed distributed tracing for complex multi-step LLM chains and agent workflows, alongside dataset management, automated evaluations, prompt playgrounds, and fine-grained latency and token cost analytics.
 
-6. **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
+6. **[Apache APISIX](https://github.com/apache/apisix)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/apisix?style=social&color=white)](https://github.com/apache/apisix/stargazers)  
    ⚡ **Dynamic, high-performance API gateway with AI proxy plugins.**  
    *📜 License: Apache-2.0*  
    Built on NGINX and OpenResty, APISIX provides native AI proxy plugins for LLM load balancing, token rate limiting, fallback routing, and integration with OpenAI, DeepSeek, and Anthropic APIs.
 
-7. **[Portkey Gateway](https://github.com/Portkey-AI/gateway)** [![GitHub stars](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social&color=white)](https://github.com/Portkey-AI/gateway/stargazers)  
+7. **[Portkey Gateway](https://github.com/Portkey-AI/gateway)** [![GitHub_Stars](https://img.shields.io/github/stars/Portkey-AI/gateway?style=social&color=white)](https://github.com/Portkey-AI/gateway/stargazers)  
    🚀 **High-throughput AI gateway with integrated guardrails.**  
    *📜 License: Apache-2.0*  
    Ultra-fast, enterprise-ready gateway routing to 1,600+ models. Supports advanced routing strategies (fallback, load balance, canary deployments, conditional routing), semantic caching, retries, and comprehensive compliance logging.
 
-8. **[TensorZero](https://github.com/tensorzero/tensorzero)** [![GitHub stars](https://img.shields.io/github/stars/tensorzero/tensorzero?style=social&color=white)](https://github.com/tensorzero/tensorzero/stargazers)  
+8. **[TensorZero](https://github.com/tensorzero/tensorzero)** [![GitHub_Stars](https://img.shields.io/github/stars/tensorzero/tensorzero?style=social&color=white)](https://github.com/tensorzero/tensorzero/stargazers)  
    🦀 **High-performance LLMOps gateway, observability, and optimization engine.**  
    *📜 License: Apache-2.0*  
    Written in Rust, TensorZero serves as an enterprise gateway unifying LLM model invocation, metric collection, dynamic experimentation (A/B testing and bandit routing), and fine-tuning pipelines.
 
-9. **[Tyk API & AI Gateway](https://github.com/TykTechnologies/tyk)** [![GitHub stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)  
+9. **[Tyk API & AI Gateway](https://github.com/TykTechnologies/tyk)** [![GitHub_Stars](https://img.shields.io/github/stars/TykTechnologies/tyk?style=social&color=white)](https://github.com/TykTechnologies/tyk/stargazers)  
    🛡️ **Open-source API gateway supporting REST, GraphQL, gRPC, and MCP.**  
    *📜 License: MPL-2.0*  
    Enterprise gateway providing native AI mediation, Model Context Protocol (MCP) support, security policies, token-based rate limiting, and multi-model traffic management.
 
-10. **[Higress](https://github.com/higress-group/higress)** [![GitHub stars](https://img.shields.io/github/stars/higress-group/higress?style=social&color=white)](https://github.com/higress-group/higress/stargazers)  
+10. **[Higress](https://github.com/higress-group/higress)** [![GitHub_Stars](https://img.shields.io/github/stars/higress-group/higress?style=social&color=white)](https://github.com/higress-group/higress/stargazers)  
     🤖 **Next-generation cloud-native AI gateway built on Envoy and Istio.**  
     *📜 License: Apache-2.0*  
     Initiated by Alibaba, Higress acts as an AI-native gateway combining API gateway, ingress controller, and AI proxy functionality. Provides multi-model failover, token-level flow control, and WebAssembly plugin extensibility.
 
-11. **[Bifrost (Maxim AI)](https://github.com/maximhq/bifrost)** [![GitHub stars](https://img.shields.io/github/stars/maximhq/bifrost?style=social&color=white)](https://github.com/maximhq/bifrost/stargazers)  
+11. **[Bifrost (Maxim AI)](https://github.com/maximhq/bifrost)** [![GitHub_Stars](https://img.shields.io/github/stars/maximhq/bifrost?style=social&color=white)](https://github.com/maximhq/bifrost/stargazers)  
     ⚡ **Sub-millisecond enterprise LLM, MCP, and agent gateway in Go.**  
     *📜 License: Apache-2.0*  
     Adds under 200µs of overhead at 5k RPS. Acts as a unified drop-in OpenAI-compatible proxy with support for 10,000+ models, MCP Code Mode, semantic caching, virtual budgets, and circuit-breaker failover.
 
-12. **[GPTCache](https://github.com/zilliztech/GPTCache)** [![GitHub stars](https://img.shields.io/github/stars/zilliztech/GPTCache?style=social&color=white)](https://github.com/zilliztech/GPTCache/stargazers)  
+12. **[GPTCache](https://github.com/zilliztech/GPTCache)** [![GitHub_Stars](https://img.shields.io/github/stars/zilliztech/GPTCache?style=social&color=white)](https://github.com/zilliztech/GPTCache/stargazers)  
     💾 **Semantic caching layer for Large Language Model queries.**  
     *📜 License: MIT*  
     Constructs semantic embedding similarity caches for LLM responses. Drastically reduces API latency and token expenditures by returning cached responses for semantically equivalent prompts.
 
-13. **[LLM Gateway (Manifest)](https://github.com/mnfst/llm-gateway)** [![GitHub stars](https://img.shields.io/github/stars/mnfst/llm-gateway?style=social&color=white)](https://github.com/mnfst/llm-gateway/stargazers)  
+13. **[LLM Gateway (Manifest)](https://github.com/mnfst/llm-gateway)** [![GitHub_Stars](https://img.shields.io/github/stars/mnfst/llm-gateway?style=social&color=white)](https://github.com/mnfst/llm-gateway/stargazers)  
     🦚 **Self-hosted, developer-friendly proxy for multi-provider routing.**  
     *📜 License: Apache-2.0*  
     Provides single-endpoint access to multiple LLM backends with rate limiting, unified key management, and configurable fallback chains.
 
-14. **[gpt-load](https://github.com/tbphp/gpt-load)** [![GitHub stars](https://img.shields.io/github/stars/tbphp/gpt-load?style=social&color=white)](https://github.com/tbphp/gpt-load/stargazers)  
+14. **[gpt-load](https://github.com/tbphp/gpt-load)** [![GitHub_Stars](https://img.shields.io/github/stars/tbphp/gpt-load?style=social&color=white)](https://github.com/tbphp/gpt-load/stargazers)  
     ⚖️ **Self-hosted AI gateway for multi-channel & multi-credential scheduling.**  
     *📜 License: GPL-3.0*  
     Designed for unified credential management across API keys and subscription accounts. Features multi-account rotation, scheduling fault tolerance, request logging, and aggregated usage metrics.
 
-15. **[Helicone OSS](https://github.com/Helicone/helicone)** [![GitHub stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers)  
+15. **[Helicone OSS](https://github.com/Helicone/helicone)** [![GitHub_Stars](https://img.shields.io/github/stars/Helicone/helicone?style=social&color=white)](https://github.com/Helicone/helicone/stargazers)  
     🔍 **Open-source observability and proxy engine for LLM developers.**  
     *📜 License: Apache-2.0*  
     Self-hostable edition of Helicone: real-time request proxying, token usage tracking, custom metadata labeling, prompt version management, and query analysis.
 
-16. **[kgateway](https://github.com/kgateway-dev/kgateway)** [![GitHub stars](https://img.shields.io/github/stars/kgateway-dev/kgateway?style=social&color=white)](https://github.com/kgateway-dev/kgateway/stargazers)  
+16. **[kgateway](https://github.com/kgateway-dev/kgateway)** [![GitHub_Stars](https://img.shields.io/github/stars/kgateway-dev/kgateway?style=social&color=white)](https://github.com/kgateway-dev/kgateway/stargazers)  
     ☸️ **Envoy-powered cloud-native API and AI gateway for Kubernetes.**  
     *📜 License: Apache-2.0*  
     Kubernetes Gateway API-compliant gateway designed for multi-model LLM routing, token-bucket rate limiting, and secure egress to frontier model APIs.
 
-17. **[RouteLLM](https://github.com/lm-sys/RouteLLM)** [![GitHub stars](https://img.shields.io/github/stars/lm-sys/RouteLLM?style=social&color=white)](https://github.com/lm-sys/RouteLLM/stargazers)  
+17. **[RouteLLM](https://github.com/lm-sys/RouteLLM)** [![GitHub_Stars](https://img.shields.io/github/stars/lm-sys/RouteLLM?style=social&color=white)](https://github.com/lm-sys/RouteLLM/stargazers)  
     🎯 **Evaluation and serving framework for cost-optimized LLM routing.**  
     *📜 License: Apache-2.0*  
     Trained on human preference datasets from LMSYS, RouteLLM dynamically classifies input complexity and dispatches prompts to cheaper models (e.g., Llama 3 8B) when possible, only falling back to frontier models (e.g., GPT-4o) when strictly necessary—slashing inference costs by up to 85%.
 
-18. **[AxonHub](https://github.com/looplj/axonhub)** [![GitHub stars](https://img.shields.io/github/stars/looplj/axonhub?style=social&color=white)](https://github.com/looplj/axonhub/stargazers)  
+18. **[AxonHub](https://github.com/looplj/axonhub)** [![GitHub_Stars](https://img.shields.io/github/stars/looplj/axonhub?style=social&color=white)](https://github.com/looplj/axonhub/stargazers)  
     🧩 **Open-source AI Gateway with multi-provider routing and cost control.**  
     *📜 License: MIT*  
     Connects to 100+ LLMs with unified OpenAI SDK compatibility. Features automatic retries, provider failover, load balancing, token quotas, and end-to-end tracing.
 
-19. **[Semantic Router](https://github.com/aurelio-labs/semantic-router)** [![GitHub stars](https://img.shields.io/github/stars/aurelio-labs/semantic-router?style=social&color=white)](https://github.com/aurelio-labs/semantic-router/stargazers)  
+19. **[Semantic Router](https://github.com/aurelio-labs/semantic-router)** [![GitHub_Stars](https://img.shields.io/github/stars/aurelio-labs/semantic-router?style=social&color=white)](https://github.com/aurelio-labs/semantic-router/stargazers)  
     🧠 **Superfast semantic decision layer for LLMs and agentic routing.**  
     *📜 License: Apache-2.0*  
     Uses local vector embeddings rather than slow LLM classifier calls to route prompts to specialized handlers, distinct models, or guardrails within milliseconds.
@@ -243,9 +243,9 @@ Contributions are warmly welcome! To add or update an entry:
 
 1. 🍴 Fork the repository.
 2. 📝 Ensure new SaaS entries follow the structured table format (including exact pricing and verified free tier limits).
-3. 🏷️ Ensure new Open-Source projects include an accurate star badge formatted as:  
-   `[![GitHub stars](https://img.shields.io/github/stars/owner/repo?style=social&color=white)](https://github.com/owner/repo/stargazers)`
-4. 🔢 Keep entries sorted according to their specified sorting criteria (Company Size descending for SaaS; Star count descending for Open Source).
+3. 🏷️ Ensure new Open-Source projects include an accurate Stars_Badge formatted as:  
+   `[![GitHub_Stars](https://img.shields.io/github/stars/owner/repo?style=social&color=white)](https://github.com/owner/repo/stargazers)`
+4. 🔢 Keep entries sorted according to their specified sorting criteria (Company Size descending for SaaS; Stars_Count descending for Open Source).
 5. 🚀 Submit a pull request with a brief explanation.
 
 ---
